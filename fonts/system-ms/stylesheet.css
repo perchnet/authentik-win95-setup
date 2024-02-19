@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'System';
+    src: url('SystemBold.woff2') format('woff2'),
+        url('SystemBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

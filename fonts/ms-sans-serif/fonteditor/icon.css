@@ -1,0 +1,906 @@
+/**
+ * @file icon.css
+ */
+
+@font-face {
+    font-family: "MS Sans Serif";
+    src: url("MS Sans Serif.eot"); /* IE9 */
+    src: url("MS Sans Serif.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("MS Sans Serif.woff2") format("woff2"), /* chrome、firefox、opera、Safari, Android, iOS */
+    url("MS Sans Serif.woff") format("woff"), /* chrome、firefox */
+    url("MS Sans Serif.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("MS Sans Serif.svg#uxfonteditor") format("svg"); /* iOS 4.1- */
+}
+
+
+.icon {
+    font-family: "MS Sans Serif" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-space:before {
+  content: "\20";
+}
+
+.icon-exclam:before {
+  content: "\21";
+}
+
+.icon-quotedbl:before {
+  content: "\22";
+}
+
+.icon-numbersign:before {
+  content: "\23";
+}
+
+.icon-dollar:before {
+  content: "\24";
+}
+
+.icon-percent:before {
+  content: "\25";
+}
+
+.icon-ampersand:before {
+  content: "\26";
+}
+
+.icon-quotesingle:before {
+  content: "\27";
+}
+
+.icon-parenleft:before {
+  content: "\28";
+}
+
+.icon-parenright:before {
+  content: "\29";
+}
+
+.icon-password_bullet:before {
+  content: "\2022,\25cf";
+}
+
+.icon-asterisk:before {
+  content: "\2a";
+}
+
+.icon-plus:before {
+  content: "\2b";
+}
+
+.icon-comma:before {
+  content: "\2c";
+}
+
+.icon-hyphen:before {
+  content: "\2d";
+}
+
+.icon-period:before {
+  content: "\2e";
+}
+
+.icon-slash:before {
+  content: "\2f";
+}
+
+.icon-zero:before {
+  content: "\30";
+}
+
+.icon-one:before {
+  content: "\31";
+}
+
+.icon-two:before {
+  content: "\32";
+}
+
+.icon-three:before {
+  content: "\33";
+}
+
+.icon-four:before {
+  content: "\34";
+}
+
+.icon-five:before {
+  content: "\35";
+}
+
+.icon-six:before {
+  content: "\36";
+}
+
+.icon-seven:before {
+  content: "\37";
+}
+
+.icon-eight:before {
+  content: "\38";
+}
+
+.icon-nine:before {
+  content: "\39";
+}
+
+.icon-colon:before {
+  content: "\3a";
+}
+
+.icon-semicolon:before {
+  content: "\3b";
+}
+
+.icon-less:before {
+  content: "\3c";
+}
+
+.icon-equal:before {
+  content: "\3d";
+}
+
+.icon-greater:before {
+  content: "\3e";
+}
+
+.icon-question:before {
+  content: "\3f";
+}
+
+.icon-at:before {
+  content: "\40";
+}
+
+.icon-A:before {
+  content: "\41";
+}
+
+.icon-B:before {
+  content: "\42";
+}
+
+.icon-C:before {
+  content: "\43";
+}
+
+.icon-D:before {
+  content: "\44";
+}
+
+.icon-E:before {
+  content: "\45";
+}
+
+.icon-F:before {
+  content: "\46";
+}
+
+.icon-G:before {
+  content: "\47";
+}
+
+.icon-H:before {
+  content: "\48";
+}
+
+.icon-I:before {
+  content: "\49";
+}
+
+.icon-J:before {
+  content: "\4a";
+}
+
+.icon-K:before {
+  content: "\4b";
+}
+
+.icon-L:before {
+  content: "\4c";
+}
+
+.icon-M:before {
+  content: "\4d";
+}
+
+.icon-N:before {
+  content: "\4e";
+}
+
+.icon-O:before {
+  content: "\4f";
+}
+
+.icon-P:before {
+  content: "\50";
+}
+
+.icon-Q:before {
+  content: "\51";
+}
+
+.icon-R:before {
+  content: "\52";
+}
+
+.icon-S:before {
+  content: "\53";
+}
+
+.icon-T:before {
+  content: "\54";
+}
+
+.icon-U:before {
+  content: "\55";
+}
+
+.icon-V:before {
+  content: "\56";
+}
+
+.icon-W:before {
+  content: "\57";
+}
+
+.icon-X:before {
+  content: "\58";
+}
+
+.icon-Y:before {
+  content: "\59";
+}
+
+.icon-Z:before {
+  content: "\5a";
+}
+
+.icon-bracketleft:before {
+  content: "\5b";
+}
+
+.icon-backslash:before {
+  content: "\5c";
+}
+
+.icon-bracketright:before {
+  content: "\5d";
+}
+
+.icon-asciicircum:before {
+  content: "\5e";
+}
+
+.icon-underscore:before {
+  content: "\5f";
+}
+
+.icon-grave:before {
+  content: "\60";
+}
+
+.icon-a:before {
+  content: "\61";
+}
+
+.icon-b:before {
+  content: "\62";
+}
+
+.icon-c:before {
+  content: "\63";
+}
+
+.icon-d:before {
+  content: "\64";
+}
+
+.icon-e:before {
+  content: "\65";
+}
+
+.icon-f:before {
+  content: "\66";
+}
+
+.icon-g:before {
+  content: "\67";
+}
+
+.icon-h:before {
+  content: "\68";
+}
+
+.icon-i:before {
+  content: "\69";
+}
+
+.icon-j:before {
+  content: "\6a";
+}
+
+.icon-k:before {
+  content: "\6b";
+}
+
+.icon-l:before {
+  content: "\6c";
+}
+
+.icon-m:before {
+  content: "\6d";
+}
+
+.icon-n:before {
+  content: "\6e";
+}
+
+.icon-o:before {
+  content: "\6f";
+}
+
+.icon-p:before {
+  content: "\70";
+}
+
+.icon-q:before {
+  content: "\71";
+}
+
+.icon-r:before {
+  content: "\72";
+}
+
+.icon-s:before {
+  content: "\73";
+}
+
+.icon-t:before {
+  content: "\74";
+}
+
+.icon-u:before {
+  content: "\75";
+}
+
+.icon-v:before {
+  content: "\76";
+}
+
+.icon-w:before {
+  content: "\77";
+}
+
+.icon-x:before {
+  content: "\78";
+}
+
+.icon-y:before {
+  content: "\79";
+}
+
+.icon-z:before {
+  content: "\7a";
+}
+
+.icon-braceleft:before {
+  content: "\7b";
+}
+
+.icon-bar:before {
+  content: "\7c";
+}
+
+.icon-braceright:before {
+  content: "\7d";
+}
+
+.icon-asciitilde:before {
+  content: "\7e";
+}
+
+.icon-uni007F:before {
+  content: "\7f";
+}
+
+.icon-uni00A0:before {
+  content: "\a0";
+}
+
+.icon-exclamdown:before {
+  content: "\a1";
+}
+
+.icon-cent:before {
+  content: "\a2";
+}
+
+.icon-sterling:before {
+  content: "\a3";
+}
+
+.icon-currency:before {
+  content: "\a4";
+}
+
+.icon-yen:before {
+  content: "\a5";
+}
+
+.icon-brokenbar:before {
+  content: "\a6";
+}
+
+.icon-section:before {
+  content: "\a7";
+}
+
+.icon-dieresis:before {
+  content: "\a8";
+}
+
+.icon-copyright:before {
+  content: "\a9";
+}
+
+.icon-ordfeminine:before {
+  content: "\aa";
+}
+
+.icon-guillemotleft:before {
+  content: "\ab";
+}
+
+.icon-logicalnot:before {
+  content: "\ac";
+}
+
+.icon-uni00AD:before {
+  content: "\ad";
+}
+
+.icon-registered:before {
+  content: "\ae";
+}
+
+.icon-macron:before {
+  content: "\af";
+}
+
+.icon-degree:before {
+  content: "\b0";
+}
+
+.icon-plusminus:before {
+  content: "\b1";
+}
+
+.icon-uni00B2:before {
+  content: "\b2";
+}
+
+.icon-uni00B3:before {
+  content: "\b3";
+}
+
+.icon-acute:before {
+  content: "\b4";
+}
+
+.icon-mu:before {
+  content: "\b5";
+}
+
+.icon-paragraph:before {
+  content: "\b6";
+}
+
+.icon-periodcentered:before {
+  content: "\b7";
+}
+
+.icon-cedilla:before {
+  content: "\b8";
+}
+
+.icon-uni00B9:before {
+  content: "\b9";
+}
+
+.icon-ordmasculine:before {
+  content: "\ba";
+}
+
+.icon-guillemotright:before {
+  content: "\bb";
+}
+
+.icon-onequarter:before {
+  content: "\bc";
+}
+
+.icon-onehalf:before {
+  content: "\bd";
+}
+
+.icon-threequarters:before {
+  content: "\be";
+}
+
+.icon-questiondown:before {
+  content: "\bf";
+}
+
+.icon-Agrave:before {
+  content: "\c0";
+}
+
+.icon-Aacute:before {
+  content: "\c1";
+}
+
+.icon-Acircumflex:before {
+  content: "\c2";
+}
+
+.icon-Atilde:before {
+  content: "\c3";
+}
+
+.icon-Adieresis:before {
+  content: "\80,\c4";
+}
+
+.icon-Aring:before {
+  content: "\81,\c5";
+}
+
+.icon-AE:before {
+  content: "\c6";
+}
+
+.icon-Ccedilla:before {
+  content: "\82,\c7";
+}
+
+.icon-Egrave:before {
+  content: "\c8";
+}
+
+.icon-Eacute:before {
+  content: "\83,\c9";
+}
+
+.icon-Ecircumflex:before {
+  content: "\ca";
+}
+
+.icon-Edieresis:before {
+  content: "\cb";
+}
+
+.icon-Igrave:before {
+  content: "\cc";
+}
+
+.icon-Iacute:before {
+  content: "\cd";
+}
+
+.icon-Icircumflex:before {
+  content: "\ce";
+}
+
+.icon-Idieresis:before {
+  content: "\cf";
+}
+
+.icon-Eth:before {
+  content: "\d0";
+}
+
+.icon-Ntilde:before {
+  content: "\84,\d1";
+}
+
+.icon-Ograve:before {
+  content: "\d2";
+}
+
+.icon-Oacute:before {
+  content: "\d3";
+}
+
+.icon-Ocircumflex:before {
+  content: "\d4";
+}
+
+.icon-Otilde:before {
+  content: "\d5";
+}
+
+.icon-Odieresis:before {
+  content: "\85,\d6";
+}
+
+.icon-multiply:before {
+  content: "\d7";
+}
+
+.icon-Oslash:before {
+  content: "\d8";
+}
+
+.icon-Ugrave:before {
+  content: "\d9";
+}
+
+.icon-Uacute:before {
+  content: "\da";
+}
+
+.icon-Ucircumflex:before {
+  content: "\db";
+}
+
+.icon-Udieresis:before {
+  content: "\86,\dc";
+}
+
+.icon-Yacute:before {
+  content: "\dd";
+}
+
+.icon-Thorn:before {
+  content: "\de";
+}
+
+.icon-germandbls:before {
+  content: "\df";
+}
+
+.icon-agrave:before {
+  content: "\88,\e0";
+}
+
+.icon-aacute:before {
+  content: "\87,\e1";
+}
+
+.icon-acircumflex:before {
+  content: "\89,\e2";
+}
+
+.icon-atilde:before {
+  content: "\8b,\e3";
+}
+
+.icon-adieresis:before {
+  content: "\8a,\e4";
+}
+
+.icon-aring:before {
+  content: "\8c,\e5";
+}
+
+.icon-ae:before {
+  content: "\e6";
+}
+
+.icon-ccedilla:before {
+  content: "\8d,\e7";
+}
+
+.icon-egrave:before {
+  content: "\8f,\e8";
+}
+
+.icon-eacute:before {
+  content: "\8e,\e9";
+}
+
+.icon-ecircumflex:before {
+  content: "\90,\ea";
+}
+
+.icon-edieresis:before {
+  content: "\91,\eb";
+}
+
+.icon-igrave:before {
+  content: "\93,\ec";
+}
+
+.icon-iacute:before {
+  content: "\92,\ed";
+}
+
+.icon-icircumflex:before {
+  content: "\94,\ee";
+}
+
+.icon-idieresis:before {
+  content: "\95,\ef";
+}
+
+.icon-eth:before {
+  content: "\f0";
+}
+
+.icon-ntilde:before {
+  content: "\96,\f1";
+}
+
+.icon-ograve:before {
+  content: "\98,\f2";
+}
+
+.icon-oacute:before {
+  content: "\97,\f3";
+}
+
+.icon-ocircumflex:before {
+  content: "\99,\f4";
+}
+
+.icon-otilde:before {
+  content: "\9b,\f5";
+}
+
+.icon-odieresis:before {
+  content: "\9a,\f6";
+}
+
+.icon-divide:before {
+  content: "\f7";
+}
+
+.icon-oslash:before {
+  content: "\f8";
+}
+
+.icon-ugrave:before {
+  content: "\9d,\f9";
+}
+
+.icon-uacute:before {
+  content: "\9c,\fa";
+}
+
+.icon-ucircumflex:before {
+  content: "\9e,\fb";
+}
+
+.icon-udieresis:before {
+  content: "\9f,\fc";
+}
+
+.icon-yacute:before {
+  content: "\fd";
+}
+
+.icon-thorn:before {
+  content: "\fe";
+}
+
+.icon-ydieresis:before {
+  content: "\ff";
+}
+
+.icon-Euro:before {
+  content: "\20ac";
+}
+
+.icon-quotesinglbase:before {
+  content: "\201a";
+}
+
+.icon-florin:before {
+  content: "\192";
+}
+
+.icon-quotedblbase:before {
+  content: "\201e";
+}
+
+.icon-ellipsis:before {
+  content: "\2026";
+}
+
+.icon-dagger:before {
+  content: "\2020";
+}
+
+.icon-daggerdbl:before {
+  content: "\2021";
+}
+
+.icon-circumflex:before {
+  content: "\2c6";
+}
+
+.icon-perthousand:before {
+  content: "\2030";
+}
+
+.icon-Scaron:before {
+  content: "\160";
+}
+
+.icon-guilsinglleft:before {
+  content: "\2039";
+}
+
+.icon-OE:before {
+  content: "\152";
+}
+
+.icon-Zcaron:before {
+  content: "\17d";
+}
+
+.icon-quoteleft:before {
+  content: "\2018";
+}
+
+.icon-quoteright:before {
+  content: "\2019";
+}
+
+.icon-quotedblleft:before {
+  content: "\201c";
+}
+
+.icon-quotedblright:before {
+  content: "\201d";
+}
+
+.icon-endash:before {
+  content: "\2013";
+}
+
+.icon-emdash:before {
+  content: "\2014";
+}
+
+.icon-tilde:before {
+  content: "\2dc";
+}
+
+.icon-trademark:before {
+  content: "\2122";
+}
+
+.icon-scaron:before {
+  content: "\161";
+}
+
+.icon-guilsinglright:before {
+  content: "\203a";
+}
+
+.icon-oe:before {
+  content: "\153";
+}
+
+.icon-zcaron:before {
+  content: "\17e";
+}
+
+.icon-Ydieresis:before {
+  content: "\178";
+}
+
+
+
