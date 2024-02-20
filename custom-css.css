@@ -32,6 +32,7 @@ ak-form-element[label="Please read and agree to our code of conduct before you c
 }
 
 div:has(#adultcheckbox:not(:checked)) button {
+    /* buggy? */
     pointer-events: none;
     color: gray !important;
     border-bottom: 2px solid black !important;
@@ -132,7 +133,30 @@ label.pf-c-check__label {
 body{
 	cursor: url('/media/custom/cursors/arrow.cur'), auto;
 }
-a[href^="https://goauthentik.io"] {display:none !important}
+a[href^="https://goauthentik.io"] {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        visibility: hidden;
+}
+a[href^="https://goauthentik.io"]::before {
+        visibility: visible;
+        content: "Powered by Authentik";
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        font-size: 36px;
+        font-family: "MS Serif";
+}
+
+@media screen and (max-width: 1199px) {
+        a[href^="https://goauthentik.io"]::before {
+                display: none;
+        }
+        a[href^="https://goauthentik.io"]{
+                display: none;
+        }
+}
 
 h1, h3 {
 	/*font-family: "Sixtyfour", "RedHatDisplay", "Overpass", helvetica, sans-serif !important;*/
