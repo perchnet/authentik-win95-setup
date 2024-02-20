@@ -38,6 +38,7 @@ div:has(#adultcheckbox:not(:checked)) button {
     border-bottom: 2px solid black !important;
     border-right: 2px solid black !important;
 }
+
 textarea[name="eula"] {
     font-family: "System", sans-serif;
     resize: none;
@@ -47,10 +48,13 @@ textarea[name="eula"] {
     color: black;
     background-color: white !important;
     user-select: none;
+    overflow: auto;
     cursor: url('/media/custom/cursors/arrow.cur'), auto !important;
+    user-select: none;
 }
-textarea[name="eula"]::placeholder {
-	color: black;
+textarea[name="eula"]::selection {
+        color: black;
+        background: white;
 }
 
 .pf-c-background-image {
