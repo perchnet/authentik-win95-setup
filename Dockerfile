@@ -5,8 +5,7 @@ FROM busybox
 COPY . /files
 
 # in case the container is run without a `/media` volume mount
-# commented out because actually maybe we actually should error in that case
-# RUN mkdir -p /media
+RUN mkdir -p /media/custom
 
 # copy all the files back out
-CMD ["sh", "-c", "cp -r /files/* /media/"]
+CMD ["sh", "-c", "cp -r /files/* /media/custom/"]
