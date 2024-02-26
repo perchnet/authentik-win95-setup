@@ -8,4 +8,4 @@ COPY . /files
 RUN mkdir -p /media/custom
 
 # copy all the files back out
-CMD ["sh", "-c", "cp -r /files/* /media/custom/"]
+CMD ["sh", "-xc", "cp -r /files/* /media/custom/"]
