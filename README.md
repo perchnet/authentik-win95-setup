@@ -2,6 +2,8 @@
 
 ## This is a fork/mirror. The upstream repository is [at git.32bit.cafe](https://git.32bit.cafe/kaylee/authentik-win95-setup)
 
+The mirror is located on the branch [mirror](https://github.com/perchnet/authentik-win95-setup/tree/mirror)
+
 ## Changes from upstream
 
 The primary changes from upstream are:
